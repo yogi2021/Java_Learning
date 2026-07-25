@@ -7,6 +7,7 @@ public class CalcPercentage {
 		return result;
 	}
 public static void main(String[] args) {
+	System.out.println("Calculate Percentage of values: ");
 	CalcPercentage  m1 = new CalcPercentage ();
 	Scanner sc = new Scanner (System.in);
 	System.out.println("Enetr value to calculate percentage:");
