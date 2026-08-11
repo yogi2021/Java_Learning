@@ -20,7 +20,7 @@
 //void getName(string name : //parameter) {                      // method declaration
 	//method defination => method declaration + code block  }
 
-package method;
+package Methods;
 
 public class method1 {
 	

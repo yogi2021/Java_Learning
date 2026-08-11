@@ -1,4 +1,4 @@
-package method;
+package Methods;
 
 public class method_With_Parameter {
 	void myName(String name) {
