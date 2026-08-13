@@ -2,7 +2,7 @@
  import java.util.Scanner;
  
 public class Array6 {
-
+  // Grt input from user and display it..
 	void accept (int arr[]) {
 		Scanner sc= new Scanner (System.in);
 		for(int i=0; i<arr.length; i++) {
