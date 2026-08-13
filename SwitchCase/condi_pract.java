@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class condi_pract {
     public static void main(String args[]) {
 
-        // Switch Case
+            // Switch Case
         // Ask the user to enter the number of the month & print the name of the month.
         // For eg - For ‘1’ print ‘January’, ‘2’ print ‘February’ & so on.
              
