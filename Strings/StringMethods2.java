@@ -77,7 +77,41 @@ public class StringMethods2 {
         boolean contain = s2.contains("Python");
         System.out.println(contain);
 
-       
+        // startsWith() -> Checks starting word
+        boolean start = s2.startsWith("Python");
+        System.out.println(start);
+
+        // endsWith() -> Checks ending word
+        boolean end = s2.endsWith("Development");
+        System.out.println(end);
+
+        // split() -> Splits string into array
+        String sentence = "Java Python C++ JavaScript";
+
+        String[] arr = sentence.split(" ");
+
+        for (String word : arr) {
+            System.out.println(word);
+        }
+
+        // compareTo() -> Lexicographical comparison
+        System.out.println("Java".compareTo("Python"));
+
+        // compareToIgnoreCase() -> Ignores uppercase/lowercase
+        System.out.println("JAVA".compareToIgnoreCase("java"));
+
+        // valueOf() -> Converts primitive into String
+        int number = 100;
+        String value = String.valueOf(number);
+        System.out.println(value);
+
+        // repeat() -> Repeats string (Java 11+)
+        System.out.println("Java ".repeat(3));
+
+        // intern() -> Returns String from String Constant Pool
+        String pool = new String("Java");
+        System.out.println(pool.intern());
+
        
     }
 }
