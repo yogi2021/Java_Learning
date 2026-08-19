@@ -46,7 +46,38 @@ public class StringMethods2 {
         for (int i = 0; i < chArray.length; i++) {
             System.out.println(chArray[i]);
         }
+       
+         // toUpperCase() -> Converts into uppercase
+        String upper = s2.toUpperCase();
+        System.out.println(upper);
 
+        // toLowerCase() -> Converts into lowercase
+        String lower = s2.toLowerCase();
+        System.out.println(lower);
+
+        // substring() -> Extracts part of string
+        String sub = s2.substring(2, 8);
+        System.out.println(sub);
+
+        // trim() -> Removes leading and trailing spaces
+        String s3 = "      Java Programming      ";
+        String trim = s3.trim();
+        System.out.println(trim);
+
+        // replace() -> Replaces character or string
+        String s4 = "java124";
+        String replace = s4.replace("a", "b");
+        System.out.println(replace);
+
+        // replaceAll() -> Replaces using Regular Expression (Regex)
+        String replaceAll = s4.replaceAll("[0-9]", "");
+        System.out.println(replaceAll);
+
+        // contains() -> Checks whether substring exists
+        boolean contain = s2.contains("Python");
+        System.out.println(contain);
+
+       
        
     }
 }
