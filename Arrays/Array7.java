@@ -36,6 +36,6 @@ public class Array7 {
     	  for(int i=0; i<arr.length;i++) {
     		  sum=sum+arr[i];
     	  }
-    	  System.out.println("Sum of element in array: "+ sum);
+    	  System.out.println("Sum of element in array git :  "+ sum);
       }
 }
