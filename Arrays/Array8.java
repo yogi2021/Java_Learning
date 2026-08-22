@@ -29,7 +29,7 @@ public class Array8 {
         System.out.println("Enter 5 Elements:");
 
         for (int i = 0; i < arr.length; i++) {
-            System.out.print("Enter Element " + (i + 1) + ": ");
+            System.out.print("Enter Element:  " + (i + 1) + ": ");
             arr[i] = sc.nextInt();
         }
     }
@@ -41,8 +41,6 @@ public class Array8 {
     	  }
       }
       
-      
-      
   	//main method
   	public static void main(String[] args) {
   		
@@ -52,9 +50,10 @@ public class Array8 {
   		aa.accept(arr);
   		aa.display(arr);
   	
-  	  System.out.println("Prime Numbers:");
+  	  System.out.println("Prime Numbers :");
 
       for(int i = 0; i < arr.length; i++) {
           checkprime(arr[i]);
   	}
-}}
+}
+}
