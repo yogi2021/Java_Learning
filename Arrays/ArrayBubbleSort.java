@@ -7,7 +7,7 @@ public class ArrayBubbleSort {
 		
 		displayarr(arr);
 		sort1(arr);
-		System.out.println("After sort : ");
+		System.out.println("After Array Sort : ");
 		displayarr(arr);
 }
 	static void displayarr(int arr[]) {
