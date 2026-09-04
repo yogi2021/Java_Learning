@@ -9,9 +9,9 @@ public class D2Array3 {
 	  int arr[][] = new int [2][3];
 		accept(arr);
 		display(arr);
-		//findmaxelement(arr);
-		//displayEven(arr);
-		//sumofelement(arr);
+		findmaxelement(arr);
+		displayEven(arr);
+		sumofelement(arr);
 }
 	  public static void accept(int [][] arr) {
 		  Scanner sc  = new Scanner (System.in);
@@ -45,6 +45,41 @@ public class D2Array3 {
 			  }
 		   }
 
+           //		  avg = sum /count;
+		  System.out.println("avg =>" + avg );
+	  }
 	  
-}
+	// WAP to find biggest element from 2D array
+	  static void findmaxelement(int[][] arr) {
+
+	      int max = arr[0][0];   // Assume first element is maximum
+
+	      for (int i = 0; i < arr.length; i++) { 
+	          for (int j = 0; j < arr[i].length; j++) {
+
+	              if (arr[i][j] > max) {
+	                  max = arr[i][j];
+	              }
+
+	          }
+	      }
+
+	      System.out.println("Maximum Element = " + max);
+	  }
+		  
+	  //wap which display even numbers from array
+	  static void displayEven(int [][] arr) {
+		  for(int i =0; i<arr.length; i++) {
+			  for(int j=0; j<arr[i].length;j++) {
+				  if(arr[i][j]%2==0) {
+					  System.out.print(arr[i][j]+" ");
+				  }
+			  }
+			      System.out.println();
+              }
+	  }
+
+	  
+	
+	  
 }
