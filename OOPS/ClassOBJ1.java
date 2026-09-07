@@ -24,13 +24,6 @@ public class ClassOBJ1{
 	   
 	   Co1.display();
 	   
-	   ClassOBJ1 Co2= new ClassOBJ1 ();
-	   Co2.eid=102;
-	   Co2.ename="shreyash";
-	   Co2.job="Software Engineer";
-	   Co2.sal=100000;
-	   System.out.println();
-	   System.out.println(Co2.eid);
-	   System.out.println(Co2.ename);
+	   
 }
 }
