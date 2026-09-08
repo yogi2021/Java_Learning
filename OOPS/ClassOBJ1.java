@@ -32,6 +32,8 @@ public class ClassOBJ1{
 	   System.out.println();
 	   System.out.println(Co2.eid);
 	   System.out.println(Co2.ename);
+
+
 	   
 }
 }
