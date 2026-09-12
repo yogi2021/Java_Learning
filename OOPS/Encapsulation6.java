@@ -37,8 +37,10 @@ public class Encapsulation6 {
 		acc.setName("Yogii");
 		acc.setAmount(50000);
 		
-		System.out.println(acc.getAccno());
-		System.out.println(acc.getName());
-		System.out.println(acc.getAmount());
+        System.out.println("-------------------");
+		System.out.println("Account Number: "+acc.getAccno());
+		System.out.println("Account Holder Name: "+acc.getName());
+		System.out.println("Amount: "+acc.getAmount());
+        System.out.println("-------------------");
 	}
 }
