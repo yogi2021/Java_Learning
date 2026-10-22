@@ -1,4 +1,4 @@
-package com.ExceptionHandling;
+package ExceptionHandling;
 
 public class MinimumBalenceException extends Exception{
      public MinimumBalenceException(String msg) {

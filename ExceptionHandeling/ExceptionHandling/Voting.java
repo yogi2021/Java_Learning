@@ -1,4 +1,4 @@
-package com.ExceptionHandling;
+package ExceptionHandling;
 
 public class Voting {
     static void checkAge(int age) throws InvalidAgeException{

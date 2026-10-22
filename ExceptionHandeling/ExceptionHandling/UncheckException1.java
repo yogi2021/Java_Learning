@@ -1,4 +1,4 @@
-package com.ExceptionHandling;
+package ExceptionHandling;
 
 public class UncheckException1 {
  public static void main(String[] args) {

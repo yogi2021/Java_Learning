@@ -1,4 +1,4 @@
-package com.ExceptionHandling;
+package ExceptionHandling;
 
 public class Bank {
    static void withdraw(int balence) throws MinimumBalenceException{
