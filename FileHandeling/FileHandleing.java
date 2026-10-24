@@ -10,7 +10,7 @@ import java.io.IOException;
 public class FileHandleing {
  public static void main(String[] args) {
 	 createFile();
-//	 writeFile();
+	 writeFile();
 //	 overwriterFile();
 //	 readFile();
 //	 readFile2();
@@ -69,15 +69,15 @@ public class FileHandleing {
     	}
     }
     
-    //  public static void writeFile() { 
-    // 	 try {
-    // 		 FileWriter writer = new FileWriter("test.txt");
-    // 		 writer.write("Hello Guys, Good Morning");
-    // 		 writer.close();
-    // 	 }catch(IOException e) {
-    // 		 e.printStackTrace();
-    // 	 }  
-    //  }
+     public static void writeFile() { 
+    	 try {
+    		 FileWriter writer = new FileWriter("test.txt");
+    		 writer.write("Hello Guys, Good Morning");
+    		 writer.close();
+    	 }catch(IOException e) {
+    		 e.printStackTrace();
+    	 }  
+     }
      
     //  public static void overWriterFile() {
     // 	 try {
