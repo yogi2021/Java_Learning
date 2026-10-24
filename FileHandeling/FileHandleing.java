@@ -11,7 +11,7 @@ public class FileHandleing {
 	public static void main(String[] args) {
 		createFile();
 		writeFile();
-		// overwriterFile();
+		overwriterFile();
 		readFile();
 		// readFile2();
 		// deleteFile();
@@ -74,15 +74,16 @@ public class FileHandleing {
 		}
 	}
 
-	// public static void overWriterFile() {
-	// try {
-	// FileWriter writer = new FileWriter("test.txt", true);
-	// writer.write("\n we are learning file handeling");
-	// writer.close();
-	// }catch(IOException e) {
-	// e.printStackTrace();
-	// }
-	// }
+	public static void overWriterFile() {
+		try {
+			FileWriter writer = new FileWriter("test.txt", true);
+			writer.write("\n we are learning file handeling");
+			writer.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+
 	public static void readFile() {
 		try {
 			FileReader reader = new FileReader("test.txt");
