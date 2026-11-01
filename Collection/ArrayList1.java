@@ -29,5 +29,9 @@ public class ArrayList1 {
         // size of arrayList
         System.out.println("Size of arraylist: " + mylist.size());
 
+        // Remove
+        mylist.remove(1); // index
+        System.out.println("After Removing: " + mylist);
+
     }
 }
