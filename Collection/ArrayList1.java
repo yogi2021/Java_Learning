@@ -46,5 +46,19 @@ public class ArrayList1 {
 
         System.out.println();
 
+        // reading all the elements
+
+        // 1. using for loop
+        for (int i = 0; i <= mylist.size() - 1; i++) {
+            System.out.println(mylist.get(i));
+        }
+
+        // 2. using for loop
+        for (Object x : mylist) {
+            System.out.println(x);
+        }
+
+        System.out.println()
+
     }
 }
