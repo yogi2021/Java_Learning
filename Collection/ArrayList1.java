@@ -33,5 +33,18 @@ public class ArrayList1 {
         mylist.remove(1); // index
         System.out.println("After Removing: " + mylist);
 
+        // Insert
+        mylist.add(2, 'A'); // insert value at you want
+        System.out.println("After Insertion: " + mylist);
+
+        // modify element
+        mylist.set(2, "Python");
+        System.out.println(mylist);
+
+        // Access specifi element
+        System.out.println(mylist.get(3));
+
+        System.out.println();
+
     }
 }
