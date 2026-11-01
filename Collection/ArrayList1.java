@@ -2,6 +2,7 @@ package Collection;
 
 import java.util.ArrayList;
 // import java.util.Iterator;
+import java.util.Iterator;
 
 public class ArrayList1 {
     public static void main(String[] args) {
@@ -58,7 +59,23 @@ public class ArrayList1 {
             System.out.println(x);
         }
 
-        System.out.println()
+        System.out.println();
+
+        // 3. using Iterator
+        Iterator I = mylist.iterator();
+
+        // System.out.println(I.next()); //print only 1st value
+
+        while (I.hasNext()) {
+            System.out.println(I.next());
+        }
+
+        // checking arraylist is empty or not
+        System.out.println(mylist.isEmpty());
+
+        // remove all the object
+        mylist.removeAll(mylist);
+        System.out.println(mylist);
 
     }
 }
